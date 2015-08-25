@@ -1,4 +1,8 @@
 # guides
 Helpful notes and guides
 
-guides/mongodb.md
+[git](git.md)
+
+[mongodb](mongodb.md)
+
+[nodejs](nodejs.md)
