@@ -92,7 +92,7 @@ Help
 * `db.<collection>.help()`
 * tab completion
 * Any method name without parenthesis will shoe JavaScript code for method.
-  Ex: `db.<collection>.save` (ie. no arguements)
+  Ex: `db.<collection>.save` (ie. no arguments)
 
 OS X install with Homebrew
 ==========================
