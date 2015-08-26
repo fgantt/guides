@@ -31,7 +31,7 @@ mongooplog -
 Shell commands
 =================
 
-```
+```javascript
 use <database>
 
 db.<collection>.insert(<json>)
@@ -44,6 +44,7 @@ db.<collection>.count()
 
 db.<collection>.find(<json>)
 
+db.<collection>.update({ <query selector>, <update document> })
 db.<collection>.update(<json>, { $set: <json> })
 
 db.<collection>.update(<json>, { $addToSet: <json> }, false, true)
@@ -56,14 +57,14 @@ db.<collection>.drop()
 ```
 
 range queries
-```
+```javascript
 db.numbers.find( {num: {"$gt": 199995 }} )
 
 db.numbers.find( {num: {"$gt": 20, "$lt": 25 }} )
 ```
 
 Indexing
-```
+```javascript
 db.numbers.find( {num: {"$gt": 199995 }} ).explain()
 
 db.numbers.ensureIndex({num: 1})
@@ -72,7 +73,7 @@ db.numbers.getIndexes()
 ```
 
 Admin
-```
+```javascript
 show dbs
 
 show collections
