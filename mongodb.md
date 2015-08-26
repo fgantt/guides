@@ -71,6 +71,29 @@ db.numbers.ensureIndex({num: 1})
 db.numbers.getIndexes()
 ```
 
+Admin
+```
+show dbs
+
+show collections
+
+db.stats()
+
+db.<collection>.stats()
+
+$cmd object wrappers
+
+db.runCommand( {dbstats: 1} )
+db.runCommand( {collstats: 'numbers'} )
+```
+
+Help
+* `db.help()`
+* `db.<collection>.help()`
+* tab completion
+* Any method name without parenthesis will shoe JavaScript code for method.
+  Ex: `db.<collection>.save` (ie. no arguements)
+
 OS X install with Homebrew
 ==========================
 ```
