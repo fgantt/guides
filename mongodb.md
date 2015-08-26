@@ -28,6 +28,49 @@ mongoperf -
 
 mongooplog -
 
+Shell commands
+=================
+
+```
+use <database>
+
+db.<collection>.insert(<json>)
+
+db.<collection>.find()
+
+db.<collection>.save(<json>)
+
+db.<collection>.count()
+
+db.<collection>.find(<json>)
+
+db.<collection>.update(<json>, { $set: <json> })
+
+db.<collection>.update(<json>, { $addToSet: <json> }, false, true)
+
+db.<collection>.remove()
+
+db.<collection>.remove(<json>)
+
+db.<collection>.drop()
+```
+
+range queries
+```
+db.numbers.find( {num: {"$gt": 199995 }} )
+
+db.numbers.find( {num: {"$gt": 20, "$lt": 25 }} )
+```
+
+Indexing
+```
+db.numbers.find( {num: {"$gt": 199995 }} ).explain()
+
+db.numbers.ensureIndex({num: 1})
+
+db.numbers.getIndexes()
+```
+
 OS X install with Homebrew
 ==========================
 ```
