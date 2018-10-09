@@ -13,4 +13,3 @@ Owin Spec: http://owin.org/html/spec/owin-1.0.1.html
 
 [Startup Class Detection](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/owin-and-katana/owin-startup-class-detection)
 
-
