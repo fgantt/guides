@@ -24,3 +24,6 @@ git config -l
 ```
 * lets you configure your Git installation (or an individual repository) from the command line.
 
+Pull Requests
+=======
+* https://gist.github.com/MarcDiethelm/7303312
