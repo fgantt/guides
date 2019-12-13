@@ -6,3 +6,6 @@ Helpful notes and guides
 [mongodb](mongodb.md)
 
 [nodejs](nodejs.md)
+
+# Go
+[Bill Kennedy's Go Reading List](https://github.com/ardanlabs/gotraining/blob/master/reading/README.md)
